@@ -364,7 +364,7 @@ result == output
 To help you test your functions easily the `jovian` Python library provides a helper function `evalute_test_case`. Apart from checking whether the function produces the expected result, it also displays the input, expected output, actual output from the function, and the execution time of the function.
 """
 
-!pip install jovian --upgrade --quiet
+
 
 from jovian.pythondsa import evaluate_test_case
 
